@@ -1,0 +1,35 @@
+legend{
+    color:  #00aade;
+    font-size: 24px;
+}
+fieldset {
+    border: 4px dashed;
+    color : #e63600;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+button {
+    background-color: #00aade;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.post-list{
+    color : #e63600;
+}
+
+h1{
+    color : #e63600;
+}
+
+ul{
+    border: 4px dashed;
+    color : #e63600;
+    margin: 10px;
+    padding: 10px;
+}
+
+
