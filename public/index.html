@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>This is the index</title>
+  </head>
+
+  <body>
+
+    <form class="postForm">
+      <fieldset>
+        <legend> Add new post </legend>
+
+        <label>
+          <div>
+            Title: <input class="postTitle" type="text"/>
+          </div>
+        </label>
+
+        <label>
+          <div>
+            Author: <input class="postAuthor" type="text"/>
+          </div>
+        </label>
+
+        <label>
+          <div>
+            Content: <input class="postContent" type="text"/>
+          </div>
+        </label>
+
+        <button class="submitPost" type="submit"> Add </button>
+      </fieldset>
+    </form>
+
+    <form class="deleteForm">
+      <fieldset>
+        <legend> Delete a post </legend>
+
+        <label>
+          <div>
+            Id: <input class="postId" type="text"/>
+          </div>
+        </label>
+
+        <button class="deletePost" type="submit"> Delete </button>
+      </fieldset>
+    </form>
+
+    <form class="editForm">
+      <fieldset>
+        <legend> Edit post </legend>
+
+        <label>
+          <div>
+            Id: <input class="editId" type="text"/>
+          </div>
+        </label>
+
+        <label>
+          <div>
+            Title: <input class="editTitle" type="text"/>
+          </div>
+        </label>
+
+        <label>
+          <div>
+            Author: <input class="editAuthor" type="text"/>
+          </div>
+        </label>
+
+        <label>
+          <div>
+            Content: <input class="editContent" type="text"/>
+          </div>
+        </label>
+
+        <button class="submitPost" type="submit"> Edit </button>
+      </fieldset>
+    </form>
+
+    <h1> List of Posts </h1>
+    <ul class="post-list">
+    </ul>
+
+    <script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+    <script src="./script.js"> </script>
+  </body>
+</html>

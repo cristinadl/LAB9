@@ -1,2 +1,1 @@
-# LAB9
-lab 9 of web
+lab 9 - blog post using mongodb
